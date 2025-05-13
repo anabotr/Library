@@ -29,7 +29,7 @@ namespace Biblioteca
             var mes = int.Parse(Console.ReadLine());
             Console.WriteLine("\nInforme o ano (com quatro dígitos) para a devolução do livro:");
             var ano = int.Parse(Console.ReadLine());
-            this.DataDevolucao = new DateOnly(ano, dia, mes);
+            this.DataDevolucao = new DateOnly(ano, mes, dia);
 
             livro.update(int.Parse(this.IdLivro), this.DataDevolucao);
 
