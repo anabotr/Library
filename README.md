@@ -5,4 +5,4 @@ This program is a basic library system, written on Portuguese and developed for 
 This project was developed with the purpose of learning C#, so there may be some mistakes or parts that could be implemented differently.
 
 # Code especifications 
-When you choose to voew the list of books, the "Disponibilidade" field will show either 0 or 1, which means available or loaned, respectively.
+When you choose to view the list of books, the "Disponibilidade" field will show either 0 or 1, which means available or loaned, respectively.
